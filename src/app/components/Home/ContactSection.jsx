@@ -17,22 +17,22 @@ export default function ContactSection() {
                     </p>
                 </div>
                 <div>
-                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center">
+                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center border-b border-gray-700">
                         <p className="text-lg text-[#64ffda]">EMAIL</p>
                         <p className="text-lg font-bold md:text-xl">hiteshsonwane32@gmail.com</p>
                     </div>
 
-                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center">
+                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center border-b border-gray-700">
                         <p className="text-sm text-[#64ffda]">LOCATION</p>
                         <p className="text-lg font-bold md:text-xl">Ambarnath, Maharashtra, India</p>
                     </div>
 
-                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center">
+                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center border-b border-gray-700">
                         <p className="text-sm text-[#64ffda]">FOCUS</p>
                         <p className="text-lg font-bold md:text-xl">React.js, Next.js, Frontend Development</p>
                     </div>
 
-                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center">
+                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center border-b border-gray-700">
                         <p className="text-sm text-[#64ffda]">GitHub</p>
                         <Link
                             href="https://github.com/HS0807"
@@ -41,7 +41,7 @@ export default function ContactSection() {
                         </Link>
                     </div>
 
-                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center">
+                    <div className="flex flex-col justify-between gap-2 py-5 sm:flex-row sm:items-center border-b border-gray-700">
                         <p className="text-sm text-[#64ffda]">LinkedIn</p>
                         <Link
                             href="https://www.linkedin.com/in/hitesh-sonwane-5a4180337"
