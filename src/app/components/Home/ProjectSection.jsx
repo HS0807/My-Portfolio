@@ -22,7 +22,12 @@ export default function ProjectSection() {
   ];
 
   const EduTrackImages = [
-    
+    { src: "/assets/picture1.png", alt: "EduTrack homepage", title: "Homepage" },
+    { src: "/assets/picture2.png", alt: "EduTrack login page", title: "Login Page" },
+    { src: "/assets/picture3.png", alt: "EduTrack student page", title: "Student Page" },
+    { src: "/assets/picture4.png", alt: "EduTrack student dashboard", title: "Student Dashboard" },
+    { src: "/assets/picture5.png", alt: "EduTrack teacher page", title: "Teacher Page" },
+    { src: "/assets/picture6.png", alt: "EduTrack teacher dashboard", title: "Teacher Dashboard" },
   ];
   return (
     <section id="projects" className="bg-[#0a192f] px-6 py-16 text-white md:px-16">
@@ -138,6 +143,33 @@ export default function ProjectSection() {
             <p className="text-sm text-[#64ffda]">
               HTML · CSS · Bootstrap · JavaScript
             </p>
+
+            <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3">
+              {EduTrackImages.map((image) => (
+                <div key={image.src}>
+                  <div className="relative">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={400}
+                      height={250}
+                      className="h-32 w-full rounded object-cover"
+                    />
+
+                    <Link
+                      href={image.src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="absolute right-2 top-2 rounded bg-[#64ffda] px-2 py-1 text-sm text-[#0a192f]"
+                    >
+                      View
+                    </Link>
+                  </div>
+
+                  <p className="mt-2 text-sm text-gray-400">{image.title}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
