@@ -22,7 +22,7 @@ export default function ProjectSection() {
   ];
 
   const EduTrackImages = [
-    { src: "/assets/picture1.png", alt: "EduTrack homepage", title: "Homepage" },
+    { src: "/assets/Picture1.png", alt: "EduTrack homepage", title: "Homepage" },
     { src: "/assets/picture2.png", alt: "EduTrack login page", title: "Login Page" },
     { src: "/assets/picture3.png", alt: "EduTrack student page", title: "Student Page" },
     { src: "/assets/picture4.png", alt: "EduTrack student dashboard", title: "Student Dashboard" },
