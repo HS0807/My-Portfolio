@@ -37,7 +37,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/assets/Hitesh-sonwane-resume.pdf"
+            href="/assets/Hitesh-Sonwane-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded border border-[#64ffda] px-5 py-3 hover:bg-[#64ffda]/20"
